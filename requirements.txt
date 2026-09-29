@@ -1,0 +1,24 @@
+# RAYA project dependencies
+#
+# Install with uv:
+#   uv venv
+#   uv pip install -r requirements.txt
+#
+# Runtime / data pipeline
+beautifulsoup4
+lxml
+#
+# Local semantic classification / Apple Silicon inference
+mlx-lm
+#
+# Hugging Face / LoRA training stack
+transformers
+datasets
+trl
+peft
+accelerate
+safetensors
+#
+# Useful for model/tokenizer and dataset processing
+huggingface-hub
+sentencepiece
