@@ -10,8 +10,8 @@ wheels/
 .venv
 
 # Personal exports and processed datasets (may contain secrets)
-data/raw/
-data/processed/
+# data/raw/
+# data/processed/
 
 # macOS
 .DS_Store

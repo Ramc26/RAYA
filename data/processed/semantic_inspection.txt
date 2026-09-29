@@ -1,0 +1,143 @@
+
+================================================================================
+[01] HIGH | id=gemini_000017
+Signals: none
+Learn: True
+Reason: short
+User: prompt config.py: """Serializable Sam prompt sections. Compose per route; do not 'improve' the wording.""" from __future__ import annotations import copy import logging from typing import Any from core.paths import get_data_dir from core.safe_io import read_json, write_json logge...
+
+================================================================================
+[02] NONE | id=gemini_000252
+Signals: preference, goal, correction
+Learn: False
+Reason: short
+User: Peter Steinberger, creator of OpenClaw, who now works with OpenAI. Yesterday he posted this: "You shouldn't be prompting coding agents anymore. You should be designing loops that prompt your agents." Then Boris Cherny, head of Claude Code at Anthropic, said the same thing differe...
+
+================================================================================
+[03] HIGH | id=gemini_000018
+Signals: none
+Learn: True
+Reason: short
+User: What stocks I need to keep eye for monday ? 3:58:25 PM I don't have direct access to your stock watchlist, but I can suggest a few stocks that are generally worth keeping an eye on for Monday based on market trends and news. Here are some sectors and stocks you might consider: Te...
+
+================================================================================
+[04] HIGH | id=gemini_001603
+Signals: none
+Learn: True
+Reason: short
+User: My Goal fitness goal is Defined body, V-Tapper upperbody and reduced tummy and lovehandles Plan is 5 Days a Week with 2 days rest.(Split workouts by specific muscle groups (e.g., chest, back, legs).) Experince: I have morethan 10+ months of experince close to 1 year, but his is n...
+
+================================================================================
+[05] NONE | id=gemini_000352
+Signals: preference, personality, decision_pattern, memory, communication_style, goal, correction, conversation_example
+Learn: False
+Reason: short
+User: We talk a lot about better models, larger context windows, and more capable agents. But most real-world failures don’t come from model capability — they come from how context is constructed, passed, and maintained. This is a hard problem. The space is moving fast and techniques a...
+
+================================================================================
+[06] NONE | id=gemini_000353
+Signals: preference, personality, decision_pattern, memory, communication_style, goal, correction, conversation_example
+Learn: False
+Reason: short
+User: We talk a lot about better models, larger context windows, and more capable agents. But most real-world failures don’t come from model capability — they come from how context is constructed, passed, and maintained. This is a hard problem. The space is moving fast and techniques a...
+
+================================================================================
+[07] HIGH | id=gemini_001504
+Signals: none
+Learn: True
+Reason: short
+User: INFO: 127.0.0.1:53968 - "GET /sse HTTP/1.1" 200 OK INFO: 127.0.0.1:53971 - "POST /messages/?session_id=842635c0152d440dad6921b876bd0e65 HTTP/1.1" 202 Accepted INFO: 127.0.0.1:53973 - "POST /messages/?session_id=842635c0152d440dad6921b876bd0e65 HTTP/1.1" 202 Accepted INFO: 127.0.0...
+
+================================================================================
+[08] NONE | id=gemini_001934
+Signals: none
+Learn: False
+Reason: short
+User: ╭─────────────────────────────────── 🚀 Crew Execution Started ────────────────────────────────────╮ │ │ │ Crew Execution Started │ │ Name: │ │ crew │ │ ID: │ │ 39e7b661-bd6b-42bf-bb60-fecf042dbd5e │ │ │ │ │ ╰────────────────────────────────────────────────────────────────────────...
+
+================================================================================
+[09] NONE | id=gemini_002197
+Signals: none
+Learn: False
+Reason: short
+User: response I'm getting from streamlit app for same query is way different from the curl/postman. curl --location 'https://toc-rag-test.soham.ai/ask' \ --header 'Content-Type: application/json' \ --data '{ "query": "Who is the Document Owner for the '\''WHISTLE BLOWER AND VIGIL MECH...
+
+================================================================================
+[10] NONE | id=gemini_002198
+Signals: none
+Learn: False
+Reason: short
+User: response I'm getting from streamlit app for same query is way different from the curl/postman. curl --location 'https://toc-rag-test.soham.ai/ask' \ --header 'Content-Type: application/json' \ --data '{ "query": "Who is the Document Owner for the '\''WHISTLE BLOWER AND VIGIL MECH...
+
+================================================================================
+[11] HIGH | id=gemini_002570
+Signals: none
+Learn: True
+Reason: short
+User: (finsight) itsmeramc@Rams-MacBook-Air FinSight % uv run main.py INFO:config:Environment variables loaded INFO:config:Initializing configuration INFO:config:Setting up project directories INFO:config:Created directories: /Users/itsmeramc/Documents/FinSight/output, /Users/itsmeramc...
+
+================================================================================
+[12] HIGH | id=gemini_002571
+Signals: none
+Learn: True
+Reason: short
+User: (finsight) itsmeramc@Rams-MacBook-Air FinSight % uv run main.py INFO:config:Environment variables loaded INFO:config:Initializing configuration INFO:config:Setting up project directories INFO:config:Created directories: /Users/itsmeramc/Documents/FinSight/output, /Users/itsmeramc...
+
+================================================================================
+[13] HIGH | id=gemini_002573
+Signals: none
+Learn: True
+Reason: short
+User: I'll help you modularize the code into multiple files for better organization. Here's the complete file structure with code for each module: ## 📁 Project Structure ``` FinSight/ ├── main.py ├── agent.py ├── tasks.py ├── data_loader.py ├── pdf_extractor.py ├── config.py ├── requir...
+
+================================================================================
+[14] NONE | id=gemini_003356
+Signals: none
+Learn: False
+Reason: short
+User: main.py: import os import time import logging import tempfile from datetime import datetime from collections import defaultdict import numpy as np import torch import torchaudio import torchaudio.transforms as T import fasttext from transformers import ( AutoTokenizer, AutoModelF...
+
+================================================================================
+[15] HIGH | id=gemini_003361
+Signals: none
+Learn: True
+Reason: short
+User: Here is a scenario we're deploying a project in prod environment and we need to make few changes in a file in site packages python3.10/site-packages/faster_whisper/feature_extractor.py import numpy as np class FeatureExtractor: def __init__( self, feature_size=80, sampling_rate=1...
+
+================================================================================
+[16] HIGH | id=gemini_003363
+Signals: none
+Learn: True
+Reason: short
+User: Here is a scenario we're deploying a project in prod environment and we need to make few changes in a file in site packages python3.10/site-packages/faster_whisper/feature_extractor.py import numpy as np class FeatureExtractor: def __init__( self, feature_size=80, sampling_rate=1...
+
+================================================================================
+[17] HIGH | id=gemini_004002
+Signals: none
+Learn: True
+Reason: short
+User: DEEPSEEK Said: To ensure your MCP tool definitions are LLM-friendly and minimize hallucinations, I recommend adopting a **structured JSON schema format** inspired by OpenAI's function-calling standard. This approach is battle-tested, handles special characters robustly, and provi...
+
+================================================================================
+[18] HIGH | id=gemini_005293
+Signals: none
+Learn: True
+Reason: short
+User: Welcome to the Find the Path project. The goal of the project is to implement a solver for the mini-game explained in the requirements below. Your task is to find the shortest path in the code matrix that contains sequences with the largest total score. A path is basically a list...
+
+================================================================================
+[19] HIGH | id=gemini_005439
+Signals: none
+Learn: True
+Reason: short
+User: fix the whole jsvascript code: <script> // Real-time date and clock function updateDateTime(){ const now = new Date(); const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]; const dayName = days[now.getDay()]; const dateStr = now.toLocaleDateString...
+
+================================================================================
+[20] HIGH | id=gemini_000470
+Signals: none
+Learn: True
+Reason: short
+User: AI Edge Gallery Agent Skills Table of contents Introduction How Skills Work Text-Only Skills: The Simplest Case Folder Structure and Naming Convention The SKILL.md File JavaScript (JS) Skills How JS Skills Work Step-by-Step: Creating a Full JS Skill Returning an Image Returning a...
+
+================================================================================
+Displayed: 20
